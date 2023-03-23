@@ -1,0 +1,30 @@
+@import'./products';
+
+body{
+    width: 100vw;
+    // height: 100vh;
+    // background-color: rgb(214, 11, 11);
+    .swiper {
+        width: 600px;
+        height: 300px;
+        .swiper-wrapper{
+          width: 100%;
+          .swiper-slide{
+            width: 100%;
+            img{
+              width: 100%   ;
+            }
+          }
+        }
+      }
+    .products{
+      width: 100%;
+      background-color: red;
+      .swiper{
+        width: 90%;
+        img{
+          width: 20%;
+        }
+      }
+    }
+}
